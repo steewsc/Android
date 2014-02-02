@@ -1,0 +1,19 @@
+<resources>
+
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <item name="android:dropDownListViewStyle">@style/TestSpinnerStyle</item>
+        <item name="dropDownListViewStyle">@style/TestSpinnerStyle</item>
+
+        <item name="actionBarSize">@dimen/actionbar_size</item>
+
+    </style>
+
+    <style name="TestSpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#dfdfdf</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+</resources>
